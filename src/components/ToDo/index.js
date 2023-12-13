@@ -6,8 +6,18 @@ function ToDo() {
     const [article, setArticle] = useState([
       {
         articleId:1,
-        articleName:"melih",
+        articleName:"Learn JavaScript",
         articleValue:true
+      },
+      {
+        articleId:2,
+        articleName:"Learn React",
+        articleValue:false
+      },
+      {
+        articleId:3,
+        articleName:"Have a Life!",
+        articleValue:false
       }
     ]) 
   return (
